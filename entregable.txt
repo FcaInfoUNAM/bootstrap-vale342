@@ -1,0 +1,28 @@
+bg-dark: Es una clase que da un color de fondo oscuro al elemento.
+Color:#212529
+
+¿Qué es lo que permite que en el formulario la contraseña esté oculta?
+El atributo 'type="password"' en la etiqueta <input>. 
+Indica al navegador que debe enmascarar los caracteres introducidos.
+
+¿Dónde deberías agregar CSS en el documento si modificas el estilo de algúna clase?
+Se debe agregar en una etiqueta <style> en el <head> del documento HTML, 
+o  en un archivo CSS externo (ej. style.css) vinculado a la hoja de estilos. 
+Ayuda que la personalización tengan prioridad sobre las otras según la cascada de CSS.
+
+¿Bootstrap incorpora algún mecanismo para realizar los cambios del paso 4? 
+Sí. Para la transparencia, clases como bg-opacity-75 o opacity-50. 
+Para los colores del botón y navbar, 
+usa clases semánticas como btn-dark y bg-dark. 
+Pero, para fondos de imagen personalizados (background-image), 
+se requiere CSS manual.
+
+¿Cómo cambiarias el fondo por un video?
+Se inserta una etiqueta <video> justo después del <body>. 
+El video debe tener atributos autoplay, muted y loop. 
+Para fondo, se aplica CSS al video con 
+position: fixed, 
+min-width: 100%, 
+min-height: 100%, y un 
+z-index: -1 
+para que permanezca detrás de todo el contenido del formulario.
